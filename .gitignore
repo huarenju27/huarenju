@@ -1,0 +1,52 @@
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Local editor files
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Local secrets (keep configuration examples)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+
+# JavaScript dependencies and caches
+node_modules/
+.npm/
+.yarn/cache/
+.pnp.*
+.next/
+.nuxt/
+.parcel-cache/
+.turbo/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Test coverage
+coverage/
+.coverage
+.coverage.*
+htmlcov/
